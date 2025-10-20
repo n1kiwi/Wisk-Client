@@ -128,7 +128,7 @@ let espEnabled = false;
 let isSkyboxHidden = false;
 
 
-let triggerBotEnabled = false;
+let triggerBotEnabled = true;
 let toggleTriggerBotInterval = null;
 
 
@@ -142,7 +142,7 @@ const possibleNames = [
     'Body|Armour',
     //"HeadMesh"
 ]; // Potential detection: If the player has leg armour there is no way leftLegMesh could have been hit.
-let killAuraEnabled = false
+let killAuraEnabled = true
 let killAuraIntervalId = null
 let lastClosestId = null
 let newBox = null;
